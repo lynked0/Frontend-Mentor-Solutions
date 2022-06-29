@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    width: 350px;
+    height: 596px;  
+}
+
+#overlay {
+    position: absolute;
+    background-color: rgba(0,255,255,0.3);
+    border-radius: 8px;
+    width: 302px;
+    height: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+    opacity: 0;
+}
+
+#eye {
+    position: absolute;
+    opacity: 0;
+}
+
+#overlay:hover, #eye{
+    cursor: pointer;
+    transition: .3s ease;
+    opacity: 1;
+}
+
+#featureimage {
+    background-color: #15263F;
+    border-radius: 8px;
+    width: 302px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px; 
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px 24px 16px 24px;
+}
+
+h1:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#description{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0.1875px;
+    color: #8BACD9;
+    margin: 0px 24px 24px 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #2E405A;
+    width: 302px;
+    margin-left: 24px;
+    padding-bottom: 24px;
+}
+
+main ul li {
+    display: flex;
+    align-items: center;
+}
+
+#gem {
+    width: 11px;
+    height: 18px;
+    margin-right: 6.48px;
+}
+
+#gemtext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8; 
+}
+
+#clock {
+    width: 16px;
+    height: 16px;
+    margin-right: 7.7px;
+}
+
+#clocktext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+main ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 302px;
+    margin: 16px 0px 0px 24px;
+}
+
+main ol li {
+    display: flex;
+    align-items: center;
+}
+
+main ol li span {
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+main ol li span:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+#author {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 70px;
+    color: #FFFFFF; 
+}
+
+.attribution a {
+    color: hsl(228, 64%, 55%); 
+}
